@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Chatroom/static/css/main.070a102f.css",
+    "main.js": "/React-Chatroom/static/js/main.9462215f.js",
+    "static/js/787.f42c76e2.chunk.js": "/React-Chatroom/static/js/787.f42c76e2.chunk.js",
+    "static/media/logo.svg": "/React-Chatroom/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Chatroom/index.html",
+    "main.070a102f.css.map": "/React-Chatroom/static/css/main.070a102f.css.map",
+    "main.9462215f.js.map": "/React-Chatroom/static/js/main.9462215f.js.map",
+    "787.f42c76e2.chunk.js.map": "/React-Chatroom/static/js/787.f42c76e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.070a102f.css",
+    "static/js/main.9462215f.js"
+  ]
+}
