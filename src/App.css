@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body{
+  background-color: lavender;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chatbox{
+  border: solid;
+    border-radius: 8px;
+    border-color: grey;
+    background-color: lightgrey;
+    border-width: thin;
+    padding:10px;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  display:flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.me .chatbox{
+  background-color: darkseagreen;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+.btm{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  flex-direction: row;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btm input{
+  padding:10px;
+  flex-grow:1;
 }
+.start{
+  padding: 5px;
+    margin-top: 2%;
+    border-radius: 4px;
+    border-color: grey;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.start input{
+  background-color: lightpink;
+
+}
+.chat-container{
+  height:80vh;
+  overflow-y:scroll;
+  border:solid;
+  border-width:thin;
+  background-color:black ;
+}
+.sign-up{
+  padding: 20px;
+    border-radius: 8px;
+    background-color: cornsilk;
+    margin-left: 40%;
+}
+.sign-up:hover{
+  background-color:bisque;
 }
